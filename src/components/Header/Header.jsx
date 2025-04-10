@@ -1,12 +1,12 @@
 import React from 'react';
 import { Container, Logo, LogoutBtn } from '../index.js';
-import { link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 import { useNavigate } from 'react-router-dom';
 
 function Header() {
 
-  const authStatus = useSelector((state) => state.auth.Status);
+  const authStatus = useSelector((state) => state.auth.status);
   const navigate = useNavigate();
 
   const navItem = [
@@ -42,9 +42,9 @@ function Header() {
       <Container>
         <nav>
           <div>
-            <link to='/'>
+            <Link to='/'>
               <Logo className='text-2xl font-bold text-white'>MegaBlog</Logo>
-            </link>
+            </Link>
           </div>
 
           <ul className='flex gap-4'>
