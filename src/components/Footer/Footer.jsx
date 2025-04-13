@@ -21,7 +21,7 @@ function Footer() {
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-black">
+                            <h3 className="tracking-px mb-9  text-xs font-bold uppercase text-black">
                                 Company
                             </h3>
                             <ul>
@@ -62,7 +62,7 @@ function Footer() {
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-2/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
+                            <h3 className="tracking-px mb-9  text-xs font-bold uppercase text-black">
                                 Support
                             </h3>
                             <ul>
@@ -103,7 +103,7 @@ function Footer() {
                     </div>
                     <div className="w-full p-6 md:w-1/2 lg:w-3/12">
                         <div className="h-full">
-                            <h3 className="tracking-px mb-9  text-xs font-semibold uppercase text-gray-500">
+                            <h3 className="tracking-px mb-9  text-xs font-bold uppercase text-black">
                                 Legals
                             </h3>
                             <ul>
