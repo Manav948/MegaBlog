@@ -125,3 +125,4 @@ function PostForm({ post }) {
 }
 
 
+export default PostForm
