@@ -19,7 +19,7 @@ export class Service {
         try {
             return await this.Databases.createDocument(
                 conf.appwriteDatabaseId,
-                conf.appwriteCollcetionId,
+                conf.appwriteCollectionId,
                 slug,
                 {
                     title,
@@ -39,7 +39,7 @@ export class Service {
         try {
             return await this.Databases.updateDocument(
                 conf.appwriteDatabaseId,
-                conf.appwriteCollcetionId,
+                conf.appwriteCollectionId,
                 slug,
                 {
                     title,
@@ -58,7 +58,7 @@ export class Service {
         try {
             return await this.Databases.deleteDocument(
                 conf.appwriteDatabaseId,
-                conf.appwriteCollcetionId,
+                conf.appwriteCollectionId,
                 slug,
             )
         }
@@ -71,7 +71,7 @@ export class Service {
         try {
             return await this.Databases.getDocument(
                 conf.appwriteDatabaseId,
-                conf.appwriteCollcetionId,
+                conf.appwriteCollectionId,
                 slug,
             )
         }
@@ -85,7 +85,7 @@ export class Service {
         try {
             await this.Databases.listDocuments(
                 conf.appwriteDatabaseId,
-                conf.appwriteCollcetionId,
+                conf.appwriteCollectionId,
                 queries,
             )
         }
