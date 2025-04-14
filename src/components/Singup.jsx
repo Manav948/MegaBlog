@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import authService from "../appwrite/authService";
+import authService from "../appwrite/auth";
 import { useForm } from "react-hook-form";
 import { Link, useNavigate } from "react-router-dom";
 import { login } from '../store/authSlice'

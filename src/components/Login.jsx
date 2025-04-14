@@ -25,7 +25,7 @@ function Login() {
         }
 
     }
-
+return (
     <>
         <div
             className="flex flex-col items-center justify-center h-screen bg-gray-100">
@@ -49,7 +49,9 @@ function Login() {
                             type="email"
                             placeholder="Enter your email"
                             {...register("email", {
-                                required: true, validate: { matchPatern: (value) => /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(value) || "Invalid email address" }
+                                required: true, validate: {
+                                    matchPattern: (value) => /^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{2,}$/.test(value) || "Invalid email address"
+                                  }
                             })}
                         />
 
@@ -68,6 +70,7 @@ function Login() {
             </div>
         </div>
     </>
+    )
 }
 
 export default Login;

@@ -1,11 +1,12 @@
-import React from 'react'
-import { Login as loginComponent } from '../components'
+import { Login as LoginComponent } from '../components'
+
 function Login() {
   return (
     <div className='py-8'>
-        <loginComponent />
+        <LoginComponent />  // ✅ Capitalized!
     </div>
   )
 }
 
 export default Login
+// import React, { useState } from 'react'
